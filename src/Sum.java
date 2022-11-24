@@ -6,7 +6,8 @@ public class Sum {
         int res = 0;
          for(int a = 1;a <= N;a++){
              res = res + a * x;
+
+             System.out.println(res);
          }
-        System.out.println(res);
     }
 }

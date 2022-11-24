@@ -6,7 +6,8 @@ public class PowerNumber {
         int s = 3;
         for(int i = 0; i < s; i++){
             res = res * c;
+
+            System.out.println(res);
         }
-        System.out.println(res);
     }
 }
